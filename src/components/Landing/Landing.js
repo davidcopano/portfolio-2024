@@ -172,7 +172,7 @@ function Landing() {
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        Descargar CV
                                     </Button>
                                 </a>
                             )}
@@ -183,7 +183,7 @@ function Landing() {
                                 duration={2000}
                             >
                                 <Button className={classes.contactBtn}>
-                                    Contact
+                                    Contacto
                                 </Button>
                             </NavLink>
                         </div>
