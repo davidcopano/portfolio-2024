@@ -4,3 +4,6 @@
     /* --primaryFont: 'Raleway', sans-serif; */
 }
 
+span[class^="makeStyles-drawerLinks-"] {
+    width: 70% !important;
+}
