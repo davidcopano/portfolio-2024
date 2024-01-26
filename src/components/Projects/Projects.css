@@ -51,6 +51,7 @@
 
 .projects--viewAll a button {
     outline: none;
+    color: white;
     border: none;
     width: 150px;
     height: 48px;

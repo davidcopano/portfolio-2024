@@ -25,7 +25,7 @@ function Projects() {
             }
         },
         viewArr : {
-            color: theme.tertiary, 
+            color: theme.primary, 
             backgroundColor: theme.secondary70,
             width: '40px',
             height: '40px',
