@@ -30,10 +30,10 @@ a {
     height: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #555;
+    background: #3468C0;
 }
 ::-webkit-scrollbar-thumb {
-    background: #555;
+    background: #2b49a0;
   border-radius: 10px;
   transition: 0.3s;
 }
