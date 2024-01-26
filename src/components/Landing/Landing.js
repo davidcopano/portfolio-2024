@@ -165,7 +165,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='CV David Copano'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
