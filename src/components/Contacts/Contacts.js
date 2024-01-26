@@ -135,12 +135,13 @@ function Contacts() {
         if (name && email && message) {
             if (isEmail(email)) {
                 const responseData = {
+                    access_key: 'e52ed8b6-0d8f-4f23-9ef6-715f61116183',
                     name: name,
                     email: email,
                     message: message,
                 };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                axios.post('https://api.web3forms.com/submit', responseData).then((res) => {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
