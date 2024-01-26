@@ -42,6 +42,7 @@ function Navbar() {
                 fontSize: '2.5rem',
             },
             [t.breakpoints.down('xs')]: {
+                color: '#eaeaea',
                 fontSize: '2rem',
             },
         },
