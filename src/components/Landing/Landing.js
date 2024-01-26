@@ -33,9 +33,8 @@ function Landing() {
             border: `3px solid ${theme.primary}`,
             transition: '100ms ease-out',
             '&:hover': {
-                backgroundColor: theme.tertiary,
-                color: theme.secondary,
-                border: `3px solid ${theme.tertiary}`,
+                transform: 'scale(1.05)',
+                background: 'transparent'
             },
             [t.breakpoints.down('sm')]: {
                 width: '180px',
@@ -55,9 +54,8 @@ function Landing() {
             border: `3px solid ${theme.primary}`,
             transition: '100ms ease-out',
             '&:hover': {
-                backgroundColor: theme.secondary,
-                color: theme.tertiary,
-                border: `3px solid ${theme.tertiary}`,
+                transform: 'scale(1.05)',
+                backgroundColor: theme.primary
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',

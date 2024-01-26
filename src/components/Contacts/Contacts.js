@@ -92,9 +92,7 @@ function Contacts() {
             color: theme.secondary,
             transition: '250ms ease-in-out',
             '&:hover': {
-                transform: 'scale(1.1)',
-                color: theme.secondary,
-                backgroundColor: theme.tertiary,
+                transform: 'scale(1.1)'
             },
         },
         detailsIcon: {
@@ -110,9 +108,7 @@ function Contacts() {
             transition: '250ms ease-in-out',
             flexShrink: 0,
             '&:hover': {
-                transform: 'scale(1.1)',
-                color: theme.secondary,
-                backgroundColor: theme.tertiary,
+                transform: 'scale(1.1)'
             },
         },
         submitBtn: {
@@ -120,9 +116,7 @@ function Contacts() {
             color: theme.secondary,
             transition: '250ms ease-in-out',
             '&:hover': {
-                transform: 'scale(1.08)',
-                color: theme.secondary,
-                backgroundColor: theme.tertiary,
+                transform: 'scale(1.08)'
             },
         },
     }));
