@@ -13,6 +13,11 @@
     cursor: pointer;
     background: none;
     padding: 20px;
+    transition: 100ms ease-in-out;
+}
+
+.backToTop button:hover {
+    transform: scale(1.08);
 }
 
 @media screen and (max-width: 800px) {

@@ -18,10 +18,9 @@ function Projects() {
         viewAllBtn : {
             color: theme.tertiary, 
             backgroundColor: theme.primary,
-            transition: 'color 0.2s',
+            transition: '200ms ease-in-out',
             "&:hover": {
-                color: theme.secondary, 
-                backgroundColor: theme.primary,
+                transform: 'scale(1.08)'
             }
         },
         viewArr : {
@@ -33,11 +32,7 @@ function Projects() {
             fontSize: '1.05rem',
             borderRadius: '50%',
             cursor: 'pointer',
-            transition: 'background-color 0.2s',
-            "&:hover": {
-                color: theme.tertiary, 
-                backgroundColor: theme.secondary,
-            }
+            transition: 'background-color 0.2s'
         },
     }));
 
