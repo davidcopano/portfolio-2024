@@ -147,12 +147,20 @@
     border-radius: 10px;
   }
 
+  .about-description {
+    margin-top: 50px;
+  }
+
   .about-description > h2 {
     font-size: 2.5rem;
   }
 
     .about-description > p{
       font-size: 0.95rem;
+    }
+
+    .about-img {
+      display: none;
     }
 
     .about-img > img {
