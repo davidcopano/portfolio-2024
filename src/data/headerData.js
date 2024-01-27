@@ -6,5 +6,4 @@ export const headerData = {
     description: "Desarrollador web y de aplicaciones móviles híbridas en búsqueda de proyectos emocionantes. Experto en transformar código en soluciones prácticas y atractivas. ¡Hablemos! 💻📱🚀",
     image: 'https://i.imgur.com/iAVHICA.jpg',
     resumePdf: resume
-    // +info: https://github.com/salomonelli/best-resume-ever
 }
